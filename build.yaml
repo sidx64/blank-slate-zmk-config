@@ -13,7 +13,7 @@
 #
 ---
 include:
-  - board: blank_slate_sidx64
+  - board: lpgalaxy_blank_slate
   - board: blank_slate_sidx64
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
