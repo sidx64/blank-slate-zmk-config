@@ -14,7 +14,7 @@
 ---
 include:
   - board: lpgalaxy_blank_slate
-  - board: blank_slate_sidx64
+  - board: lpgalaxy_blank_slate
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: blank_slate_sidx64-studio
