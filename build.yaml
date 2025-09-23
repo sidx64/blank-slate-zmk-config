@@ -14,11 +14,11 @@
 ---
 include:
   - board: lpgalaxy_blank_slate
-    artifact-name: blank_slate_sidx64-studio
+    artifact-name: blank_slate_sidx64
   - board: lpgalaxy_blank_slate
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: blank_slate_sidx64-studio
   - board: lpgalaxy_blank_slate
     artifact-name: blank_slate_reset
-    shield: settings_reset
+    shield: blank_slate_settings_reset
