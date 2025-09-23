@@ -53,10 +53,10 @@ UPDATED BY: Siddharth Shanbhogue
         layer_1 {
             label = "LWR";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &studio_unlock  &trans    &trans     &trans     &trans     &kp DEL
-&trans      &trans        &trans        &trans        &trans        &trans          &trans          &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
-&trans      &trans        &trans        &trans        &trans        &trans          &trans          &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
-&trans      &trans        &trans        &trans        &trans        &trans          &trans          &trans    &trans     &trans     &trans
+&bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &studio_unlock  &trans    &trans     &trans     &trans     &kp DEL
+&bt BT_CLR_ALL  &trans          &trans          &trans          &trans          &trans          &trans          &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
+&bt BT_NXT      &trans          &trans          &trans          &trans          &trans          &trans          &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
+&bt BT_DISC     &trans          &trans          &trans          &trans          &trans          &trans          &trans    &trans     &trans     &trans
             >;
         };
 
@@ -73,7 +73,7 @@ UPDATED BY: Siddharth Shanbhogue
         layer_3 {
             label = "MNU";
             bindings = <
-&trans  &kp LBRC   &kp AMPS  &kp STAR   &kp LPAR   &kp RBRC    &trans   &trans  &trans  &trans  &trans  &bootloader
+&trans  &kp LBRC   &kp AMPS  &kp STAR   &kp LPAR   &kp RBRC    &kp U(0x20B9)   &trans  &trans  &trans  &trans  &bootloader
 &trans  &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS    &trans   &trans  &trans  &trans  &trans  &trans
 &trans  &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE    &trans   &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans    &kp RPAR   &trans     &trans               &trans  &trans  &trans  &trans  &trans
